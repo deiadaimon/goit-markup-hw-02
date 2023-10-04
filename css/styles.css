@@ -17,7 +17,7 @@
 body {
     background-color: var(--white);
     color: var(--slate);
-    font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -64,7 +64,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.54px;
 }
 
@@ -107,19 +107,18 @@ h3 {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
 .hero-btn {
-    border: none;
-    border-radius: 4px;
     background: var(--iris);
-    
     color: var(--white);
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    cursor: pointer;
 }
