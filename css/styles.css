@@ -1,0 +1,125 @@
+:root {
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+    --light-slate: #8E8F99;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    /* --navy-blue-modal: #2E2F42 40%; */
+    /* --grey: #2E2F42 70%; */
+    --green: #31D0AA;
+}
+
+/* common styles */
+body {
+    background-color: var(--white);
+    color: var(--slate);
+    font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* logo styles */
+.logo {
+    color: var(--iris);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.16667;
+    letter-spacing: 0.54px;
+}
+
+.logo-dark {
+    color: var(--navy-blue);
+}
+
+.logo-light {
+    color: var(--cloud);
+}
+
+/* header styles */
+.nav-link {
+    color: var(--navy-blue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.contact-link {
+    color: var(--slate);
+    font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* main styles */
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.hero-title {
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07143;
+    letter-spacing: 1.12px;
+}
+
+.hero-btn {
+    border: none;
+    border-radius: 4px;
+    background: var(--iris);
+    
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
