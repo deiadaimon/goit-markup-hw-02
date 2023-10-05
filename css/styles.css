@@ -42,7 +42,11 @@ h3 {
     text-decoration: none;
 }
 
-.visually-hidden {
+.link:hover, .link:focus {
+    color: var(--ocean);
+}
+
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -54,7 +58,7 @@ h3 {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 /* logo styles */
 .logo {
@@ -86,11 +90,15 @@ h3 {
     letter-spacing: 0.32px;
 }
 
-.contact-link {
+.contacts {
+    font-style: normal;
+}
+
+.contacts-link {
     color: var(--slate);
     font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
     font-size: 16px;
-    font-style: normal;
+    
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -112,7 +120,7 @@ h3 {
 }
 
 .hero-btn {
-    background: var(--iris);
+    background-color: var(--iris);
     color: var(--white);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -121,4 +129,45 @@ h3 {
     line-height: 1.5;
     letter-spacing: 0.64px;
     cursor: pointer;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: var(--ocean);
+}
+
+.team-section {
+    background-color: var(--cloud);
+}
+
+.section-title {
+    color: var(--navy-blue);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-card {
+    background-color: var(--white);
+}
+
+.team-name {
+    text-align: center;
+}
+
+.team-position {
+    text-align: center;
+}
+
+/* foter styles */
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer-text {
+    color: var(--cloud);
 }
