@@ -80,11 +80,10 @@ h3 {
     font-style: normal;
 }
 
-.contacts-link {
+.contact-link {
     color: var(--slate);
-    font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -121,10 +120,6 @@ h3 {
     background-color: var(--ocean);
 }
 
-.team-section {
-    background-color: var(--cloud);
-}
-
 .section-title {
     color: var(--navy-blue);
     text-align: center;
@@ -135,6 +130,10 @@ h3 {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+
+.team-section {
+    background-color: var(--cloud);
 }
 
 .team-card {
